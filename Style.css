@@ -25,16 +25,7 @@
     margin: 41px 41px 0px 55px;
 }
 
-.jo ul li:hover{
-        opacity :0.8;
-}
-    .jo ul li .jos:hover{
-        background-color: green;
-        color: whitesmoke;
-
-    }
-    
-    .bottom{
+ .bottom{
     box-sizing: border-box;
     border: 5px solid black;
     background-color: rgb(236, 36, 10);     
@@ -46,9 +37,7 @@
         margin:20px auto;
         padding: 20px;
 } 
-.colour ul li:hover{
-    opacity :0.8
-}
+
     .hor{
         float :right;
         font-size:x-large;
