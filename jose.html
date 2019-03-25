@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MY PROFILE WEB PAGE</title>
+	<link rel="Stylesheet"href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class ="top">
+		<h1 align ="center">Joseph Moses Banda-CHANCO STUDENT</h1>
+		<img src ="joseph.jpg" height="155px">
+		
+		<div class = "hor">
+			<a href="http://www.Ajosy87@github.com">GitHub</a>
+			<a href="http://www.josephbanda@facebook.com">-Facebook</a>
+			<a href="http://www.bsc-com-07-17@cc.ac.mw">-Email address</a>
+		</div>
+	</div>
+			   <br>
+
+	<div align ="center" class ='middle'>
+    <form onsubmit="load()">
+    	<h2>USER'S PROJECT FORM</h2>
+    	<div class="jo">
+    	<p class="name">
+    		<label for="name">PROJECT NAME</label><br />
+    		<input type="text" name="projectName" id="projectName" value="" placeholder="Name of your project">
+    	</p>
+    	
+    	<p class="description">
+    		<label for="pd">PROJECT DESCRIPTION</label><br />
+    		<textarea id="description" placeholder="describe your project please"></textarea>
+    	</p>
+    	<p class="D_t">
+    		<label for="datelines">Date of completion</label><br />
+    		<input type="date" name="D_t" id="D_t" value="" >
+    	</p>
+    	
+    	
+    	<p  align ="center" class="button">
+    		<input type="submit" name="Submit" id="Submit" value="Submit" onclick="save()">
+                &nbsp;
+    		<input type="reset" name="Submit" id="clear" value="Reset" onclick="clean()">
+            <a href="ajosy.html" onclick="redirecting">Click here for details</a>
+        </p>
+    
+	</div>
+</div>
+<br>
+<div align ="center"  class= "bottom">
+    <form onsubmit="work()">
+    	<h2 align ="center">WORK EXPRIENCE FORM</h2>
+    	<div class="colour">
+    	<p class="N_W_experience">
+    		<label for="name">NAME OF ORGANISATION</label><br />
+    		<input type="text" name="N_W_experience" id="N_W_experience" value="" placeholder="Enter type of work..">
+    	</p>
+    
+    	<p class="Time">
+    		<label for="datelines"> FROM <lable/><br />
+    		<input type="date" name="wdateline" id="frodate" value="" >
+    	</p>
+    	
+    	<p class="Time">
+    		<label for="datelines"> TO <lable/><br />
+    		<input type="date" name="wdateline" id="todate" value="" >
+    	</p>
+    	<p class="buttons">
+    		<input type="submit" name="Submit" id="Submit" value="Submit" onclick="show()">
+                &nbsp;
+    		<input type="reset" name="Submit" id="clear" value="Reset" onclick="cleared()">
+             <a href="ajosy.html" onclick="redirect()">click here to see the details</a>
+		</p>
+	</form>
+		</div>
+</body>
+</html>

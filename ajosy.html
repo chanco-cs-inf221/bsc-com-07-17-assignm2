@@ -1,0 +1,40 @@
+
+    <!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>RESERVE PAGE</title>
+	</head>
+	<body>
+		
+		<a href="jose.html">back to main page</a>
+
+		<header><h1>THIS PAGE SHOW DETAILS OF PROJECTS AND WORK EXPRIENCE YOU HAVE ENTERED</h1></header>
+		<h2>PROJECT DETAILS</h2>
+        
+
+		
+		<script type="text/javascript">
+			 
+			
+			
+			 document.write(" <p> <h2>NAME:</h2>  " + localStorage.projectName + " </p> ");
+             document.write(" <p> <h2>DESCRIPTION:</h2> " + localStorage.description + " </p>");
+             document.write(" <p> <h2>DATE:</h2>  " + localStorage.D_t + " </p> ");
+             
+            
+		</script>
+		<h2>WORK EXPRIENCE DEATAILS</h2>
+          
+		 <script type="text/javascript">
+		 	
+		 	document.write(" <p> <h2>WORK:</h2> " + localStorage.N_W_experience + " </p>");
+            /* document.write(" <p> <h2>DESCRIPTION:</h2> " + localStorage.wdescription + " </p> "); */
+			document.write(" <p> <h2>DATE:</h2>  " + localStorage.frodate + " </p>");
+			document.write(" <p> <h2>DATE:</h2>  " + localStorage.todate + " </p>");
+            
+          
+		 </script>
+	   
+	</body>
+	</html>
